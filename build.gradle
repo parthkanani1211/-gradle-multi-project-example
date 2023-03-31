@@ -43,7 +43,6 @@ subprojects { subproj ->
             // 生成jar 包的时候按此规则生成 manifest 文件
             manifest = defaultManifest([
                     project: subproj,
-                    projectVendor: project_vendor
             ])
         }
     }
